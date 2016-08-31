@@ -889,7 +889,6 @@ pre .javascript .function {
   }
 }
 .brand {
-  position: relative;
   display: inline-block;
   padding: 0 40px;
   color: #fff;
@@ -908,16 +907,17 @@ pre .javascript .function {
 .site-title {
   display: inline-block;
   vertical-align: top;
-  line-height: 48px;
+  line-height: 60px;
   font-size: 24px;
   font-weight: normal;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   letter-spacing: 2px;
+  margin-top: -8px;
+  margin-bottom: -10px;
 }
 .site-subtitle {
-  margin-top: 1px;
   font-size: 13px;
-  color: #f8f8f8;
+  color: #9cd2f1;
   word-spacing: 10px;
   letter-spacing: 2px;
 }
@@ -1697,7 +1697,7 @@ h4 {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0bcdf6;
+  background: #2a121a;
 }
 .links-of-blogroll {
   font-size: 13px;
