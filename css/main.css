@@ -908,15 +908,18 @@ pre .javascript .function {
 .site-title {
   display: inline-block;
   vertical-align: top;
-  line-height: 36px;
-  font-size: 20px;
+  line-height: 48px;
+  font-size: 24px;
   font-weight: normal;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  letter-spacing: 2px;
 }
 .site-subtitle {
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 13px;
-  color: #ddd;
+  color: #f8f8f8;
+  word-spacing: 10px;
+  letter-spacing: 2px;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1694,7 +1697,7 @@ h4 {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #417449;
+  background: #7affad;
 }
 .links-of-blogroll {
   font-size: 13px;
